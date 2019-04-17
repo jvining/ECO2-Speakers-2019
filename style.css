@@ -32,6 +32,7 @@ footer [class*="col-"] a:hover {color:#fff;}
 .fa-6x {font-size:6.0em;} .fa-7x {font-size:7.0em;} .fa-8x {font-size:8.0em;}
 .fa-9x {font-size:9.0em;} .fa-10x{font-size:10em;}
 
+a:hover{text-decoration:none;}
 .text-light {font-weight:300;}
 .text-normal{font-weight:400;}
 .text-bold {font-weight:700;}
@@ -52,9 +53,9 @@ footer [class*="col-"] a:hover {color:#fff;}
 @media(max-width:475px){#speaker-listing .speaker-image-block{height:171px;width:171px;} #speaker-listing .speaker-image-block:hover > img:first-of-type{margin-top:-171px;}}
 
 /* FOR DEVELOPMENT ONLY 
-
-#speaker-listing [class*="col-"] h3 {color:GREEN;}
+#speaker-listing [class*="col-"] h3 {color:green;}
 #speaker-listing [class*="col-"] {color:blue;}
 #speaker-listing [class*="col-"] strong {color:red;}
+*/
 
-END FOR DEVELOPMENT ONLY */
+#speaker-listing .speaker-image-block {transition:.3s ease-in-out;}
